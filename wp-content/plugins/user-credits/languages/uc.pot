@@ -1,0 +1,2394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UserCredits\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-16 17:03+0100\n"
+"PO-Revision-Date: 2015-04-01 11:29-0000\n"
+"Last-Translator: Outerbridge <support@outerbridge.freshdesk.com>\n"
+"Language-Team: Outerbridge <contact@outerbridge.co.uk>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: user-credits-balance-resets-admin.php:2
+msgid "UserCredits - Balance Resets"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:17
+msgid "Balance reset options updated."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:24
+msgid "Balance Resets occur when credits which expire reach their expiry date."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:25
+msgid "Once credits expire you can choose how UserCredits will behave."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:26
+msgid ""
+"Please note that this only affects users who are assigned to bundles with "
+"expiry periods."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:36 user-credits-set-up-admin.php:37
+msgid "Option"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:45
+msgid "Reset balances to the bundle default"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:46
+msgid ""
+"This might be appropriate where you have a regular subscription-based system "
+"and the users are entitled to a certain number of credits only for the "
+"bundle period."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:51
+msgid "Reset balances to zero"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:52
+msgid ""
+"This might be appropriate where you have an ad hoc subscription system and "
+"the users are entitled to a certain number of credits only for the bundle "
+"period."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:57
+msgid "Add the default bundle amount to the credit balance"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:58
+msgid ""
+"This might be appropriate where you want users to gain additional credits "
+"for continuing to use the site over time, or where users are on a regular "
+"subscription-based system which entitles them to a certain number of new "
+"credits per month."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:63
+msgid "Email site admin when balance update is run"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:64
+msgid ""
+"Checking this box allows the site admin to receive an email every time this "
+"balance reset function runs.  Leave the box unchecked if you do not want the "
+"site admin to receive these emails."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:68
+#: user-credits-user-balances-admin.php:124
+msgid "Update"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:75 user-credits.php:1430
+msgid "Automatic Balance Update"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:76
+msgid ""
+"WordPress will run a twice daily scheduled update to review expiry dates and "
+"adjust user balances to the default for that bundle level, depending upon "
+"their expiry date."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:77
+msgid ""
+"Please note that WordPress' automatic scheduler has limitations, so you may "
+"need to use the manual button below to force a user balance review, or if "
+"you decide that you do not want to wait for the next scheduled update."
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:79
+msgid "Manually update all balances now"
+msgstr ""
+
+#: user-credits-balance-resets-admin.php:79
+msgid "Are you sure? Press OK to confirm"
+msgstr ""
+
+#: user-credits-bundles-admin.php:6
+msgid "UserCredits - Bundles"
+msgstr ""
+
+#: user-credits-bundles-admin.php:37
+msgid "Credit Bundles"
+msgstr ""
+
+#: user-credits-bundles-admin.php:38
+msgid ""
+"A Credit Bundle is a defined number of credits which can be purchased for a "
+"specific monetary value."
+msgstr ""
+
+#: user-credits-bundles-admin.php:39
+msgid "Use this page to set up your credit bundles."
+msgstr ""
+
+#: user-credits-bundles-admin.php:40
+msgid "Notes:"
+msgstr ""
+
+#: user-credits-bundles-admin.php:42
+msgid ""
+"The currency value amounts below <strong>must</strong> match the payment "
+"amounts that you have used elsewhere on your website (e.g. on payment "
+"buttons), otherwise users will not receive their credits."
+msgstr ""
+
+#: user-credits-bundles-admin.php:43
+msgid ""
+"UserCredits works for any currency and you do not need to specify your "
+"currency."
+msgstr ""
+
+#: user-credits-bundles-admin.php:44
+msgid ""
+"By default credit bundles do not expire.  However, you can set an expiry "
+"period for each credit bundle below."
+msgstr ""
+
+#: user-credits-bundles-admin.php:45
+msgid ""
+"Changes that you make below will apply to future purchases of credits only."
+msgstr ""
+
+#: user-credits-bundles-admin.php:46
+msgid ""
+"If a user has purchased more than one bundle, the expiry date of "
+"<strong>all</strong> their credits will be that of the most recent bundle "
+"purchased."
+msgstr ""
+
+#: user-credits-bundles-admin.php:57
+msgid "Bundle"
+msgstr ""
+
+#: user-credits-bundles-admin.php:58
+msgid "Currency Value"
+msgstr ""
+
+#: user-credits-bundles-admin.php:59
+msgid "No of Credits"
+msgstr ""
+
+#: user-credits-bundles-admin.php:60
+msgid "Expiry Period"
+msgstr ""
+
+#: user-credits-bundles-admin.php:85
+msgid "Update Bundle"
+msgstr ""
+
+#: user-credits-bundles-admin.php:91
+msgid "Are you sure you want to delete this? Press OK to confirm"
+msgstr ""
+
+#: user-credits-bundles-admin.php:91
+msgid "Delete Bundle"
+msgstr ""
+
+#: user-credits-bundles-admin.php:109
+msgid "Add New"
+msgstr ""
+
+#: user-credits-bundles-admin.php:113
+msgid "Add New Bundle"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:2
+msgid "UserCredits - Custom Messages"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:58
+msgid "Your custom messages have been updated."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:63
+msgid ""
+"Use this section to customise the messages that are displayed to your site's "
+"users.  If you do not enter anything in the custom message box, then the "
+"UserCredits default message will be displayed."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:68 user-credits-set-up-admin.php:36
+msgid "Ref"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:69
+msgid "Default Message"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:70
+msgid "Custom Message"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:71
+msgid "Situation"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:72
+msgid "Notes"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:77
+msgid "Adding Credits (using the [obr_add_credits] shortcode)"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:81 user-credits.php:1124
+#, php-format
+msgid "Successfully added %d credits."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:84
+msgid "Successfully added credits"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:85
+#, php-format
+msgid ""
+"Displayed when credits have been successfully added.  Please note that %d "
+"will be automatically replaced with the number of credits added."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:89 user-credits.php:1142
+msgid "Could not record your transaction.  Please contact the administrator."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:92
+msgid "Could not add credits"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:93
+msgid ""
+"Displayed when credits should have been added but could not add them, "
+"possibly due to a problem writing to the database."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:97 user-credits.php:1065
+msgid "Transaction ID used previously."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:100
+msgid "Duplicate transaction"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:101
+msgid "Displayed when a transaction ID has been used previously."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:105 user-credits.php:1156
+#, php-format
+msgid "%1$.2f does not match a valid bundle."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:108
+msgid "Bundle not matched"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:109
+#, php-format
+msgid ""
+"Displayed when amount to be processed does not match an existing credit "
+"bundle that you have defined on the Bundles page.  Please note that %1$.2f "
+"will be automatically replaced with the monetary value of the transaction."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:113 user-credits.php:1073
+msgid ""
+"Nothing to process.  If you think you are seeing this message in error, "
+"please contact the administrator."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:116
+msgid "Nothing to process"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:117
+msgid ""
+"Displayed when UserCredits cannot proceed, e.g. if the information is being "
+"passed to it with incorrect variable names."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:121 user-credits.php:1149
+msgid "Failed site transaction filter."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:124
+msgid "Custom transaction filter fail"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:125
+msgid ""
+"If you are an advanced user and you are using the \"obr_txn_check\" "
+"transaction filter, you can customise this message."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:128
+#: user-credits-custom-messages-admin.php:180
+#: user-credits-custom-messages-admin.php:216
+#: user-credits-custom-messages-admin.php:305
+msgid "Save All Custom Messages"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:134
+msgid "Displaying Balances (using the [obr_display_balance] shortcode)"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:137
+msgid ""
+"Messages 2.1 to 2.4 below will be used throughout the site when balances are "
+"displayed.  If you want to change a single instance of this message, you can "
+"use the \"singular\" and \"plural\" parameters in the shortcode on that "
+"page.  For more information, please see the Help & Usage page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:141
+#: user-credits-my-usercredits-admin.php:14 user-credits.php:314
+#: user-credits.php:779 user-credits.php:942 user-credits.php:1578
+msgid "You have 1 credit."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:144
+msgid "1 credit message, without expiry date"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:145
+msgid "Displayed when the user's balance is 1 credit."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:149
+#: user-credits-my-usercredits-admin.php:15 user-credits.php:318
+#: user-credits.php:785 user-credits.php:960 user-credits.php:1581
+#, php-format
+msgid "You have %d credits."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:152
+msgid "Plural message, without expiry date"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:153
+msgid ""
+"Displayed when the user's credit balance is greater than 1 (or equal to 0)."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:157 user-credits.php:935
+#, php-format
+msgid "You have 1 credit which expires on %s."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:160
+msgid "1 credit message, with expiry date"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:161
+#, php-format
+msgid ""
+"As 2.1, but with the expiry date.  %s will be automatically replaced with "
+"the expiry date.  Please note you will need to add the \"showexpiry=true\" "
+"parameter into the [obr_display_balance] shortcode on the page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:165 user-credits.php:953
+#, php-format
+msgid "You have %d credits which expire on %s."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:168
+msgid "Plural message, with expiry date"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:169
+#, php-format
+msgid ""
+"As 2.2, but with the expiry date.  %s will be automatically replaced with "
+"the expiry date.  Please note you will need to add the \"showexpiry=true\" "
+"parameter into the [obr_display_balance] shortcode on the page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:173 user-credits.php:977
+msgid "You need to be logged in to view your balance."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:176
+#: user-credits-custom-messages-admin.php:253
+msgid "User is not logged in"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:177
+msgid ""
+"Displayed when a user has tried to view their balance but is not logged into "
+"the site."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:186
+msgid "Page Buttons (using the [obr_page_button] shortcode)"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:189
+msgid ""
+"Messages 3.1 and 3.2 below will be used throughout the site when page "
+"buttons are displayed.  If you want to change a single instance of this "
+"message, you can use the \"access\" and \"noaccess\" parameters in the "
+"shortcode on that page.  For more information, please see the Help & Usage "
+"page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:193 user-credits.php:592
+msgid "Open Page"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:196
+msgid "Page \"unlocked\" button message"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:197
+msgid ""
+"Displayed on a page button when the user has previously unlocked this page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:201 user-credits.php:600
+msgid "Page Preview"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:204
+msgid "Page \"locked\" button message"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:205
+msgid ""
+"Displayed on a page button when the user has not previously unlocked this "
+"page, i.e. when it is still locked."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:209 user-credits.php:614
+#: user-credits.php:752
+#, php-format
+msgid "The page with id number %d does not exist."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:212
+msgid "The page requested cannot be found"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:213
+#, php-format
+msgid ""
+"Displayed instead of a button when the page id does not exist.  Please note "
+"that %d will be automatically replaced with the id number of the requested "
+"page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:222
+msgid "Working with Credits (using the [obr_check_credits] shortcode)"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:226 user-credits.php:695
+msgid "Thank you for your purchase. You now have 1 credit."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:229
+msgid "Successful page purchase.  1 credit remaining after purchase"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:230
+msgid ""
+"Displayed when a user has successfully purchased access to a page and has 1 "
+"credit left."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:234 user-credits.php:701
+#, php-format
+msgid "Thank you for your purchase. You now have %d credits."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:237
+msgid "Successful page purchase.  Multiple (or 0) credits left"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:238
+#, php-format
+msgid ""
+"Displayed when a user has successfully purchased access to a page and has "
+"either 0 credits left or multiple credits left.  Please note that %d will be "
+"automatically replaced with the number of credits remaining."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:242 user-credits.php:723
+msgid ""
+"There was a problem with your purchase.  Please contact the administrator."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:245
+msgid "Unsuccessful page purchase"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:246
+msgid ""
+"Displayed when a user has tried to purchase a page but the process has been "
+"unsuccessful."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:250 user-credits.php:760
+msgid "You need to be logged in to purchase and view this page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:254
+msgid ""
+"Displayed when a user has tried to view a page but is not logged in to the "
+"site."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:258 user-credits.php:793
+msgid "You need 1 credit to access this page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:261
+msgid "User needs to buy 1 credit to access page"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:262
+msgid ""
+"Displayed when a user needs to spend 1 credit to gain access to the page.  "
+"The relevant message from 2.1 or 2.2 is displayed first, followed by this "
+"message."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:266 user-credits.php:799
+#, php-format
+msgid "You need %d credits to access this page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:269
+msgid "User needs to buy more than 1 credit to access page"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:270
+#, php-format
+msgid ""
+"Displayed when a user needs to spend more than 1 credit to gain access to "
+"the page.  The relevant message from 2.1 or 2.2 is displayed first, followed "
+"by this message.  Please note that the %d will be automatically replaced "
+"with the number of credits required to access the page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:274 user-credits.php:811
+msgid "Purchase Page"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:277
+msgid "Button text for purchasing access to a page"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:278
+msgid ""
+"Displayed on the button which the user needs to click on to purchase access "
+"to the page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:282 user-credits.php:830
+msgid "You need to buy more credits to access this page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:285
+msgid "User needs more credits"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:286
+msgid ""
+"Displayed when the user needs to buy more credits to purchase access to the "
+"page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:294
+msgid ""
+"Optional URL (e.g. http://www.ofrm.co.uk) which can be used with the custom "
+"message above to create a link to your \"Buy Now\" page."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:298
+msgid "None."
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:301
+msgid "Pop-up confirmation"
+msgstr ""
+
+#: user-credits-custom-messages-admin.php:302
+msgid ""
+"If you would like a pop-up confirmation message to appear when the user "
+"clicks on a button to spend credits, please enter a message in the custom "
+"message box here.  If no message is set here, then no pop-up box is "
+"displayed and credits will be deducted straight away from the user's balance."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:9
+msgid "UserCredits - Help and Usage"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:11 user-credits-help-usage-admin.php:19
+msgid "Intro"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:12
+msgid "Quickstart"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:13 user-credits-help-usage-admin.php:28
+msgid "Upgrading UserCredits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:14 user-credits-help-usage-admin.php:138
+msgid "Shortcodes"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:15
+msgid "Advanced"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:18
+msgid "Introduction to UserCredits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:20
+msgid ""
+"UserCredits from Outerbridge is a plugin for WordPress which allows monetary "
+"amounts to be translated into credits for use on a website. Credits can then "
+"be used to perform certain operations on the site, such as accessing a "
+"restricted page on the website."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:21
+msgid ""
+"It is implemented on the website through the use of shortcodes. Shortcodes "
+"are special WordPress instructions encased within square brackets, e.g. "
+"&#0091;obr_display_balance&#0093;, that can be used on pages and/or posts to "
+"make some complicated things happen."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:22
+msgid ""
+"The UserCredits plugin allows you to have an unlimited number of users and "
+"an unlimited number of credit bundles.  You can set expiry dates for users' "
+"credits and there is even the option to automatically reset balances at "
+"specific intervals.  Users can be given the option of transferring credits "
+"between themselves, and all users have access to their own transaction log "
+"history."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:23
+msgid ""
+"Please note that we refer to GBP in our examples but the UserCredits plugin "
+"is not dependent on any currency; you can use any currency you choose. "
+"Bundles can be set up for whole pounds (dollars, etc.) or one-hundredths, i."
+"e. pence (cents, etc.)."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:25
+msgid "New to UserCredits?"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:26
+msgid ""
+"Follow the instructions on the Quickstart tab to get UserCredits up and "
+"running quickly."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:29
+msgid ""
+"IMPORTANT: The UserCredits underwent a major rewrite for version 4.0.  If "
+"you're upgrading from V3.x to V4.x, you MUST make the changes set out on the "
+"<strong>Upgrading UserCredits</strong> tab otherwise UserCredits will not "
+"work properly."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:31
+msgid "Need More Help?"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:33
+msgid ""
+"We do not provide post-sales support for this plugin.  If, having thoroughly "
+"read the documentation, you are still unsure and need further assistance, "
+"please contact your web developer."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:34
+msgid ""
+"If you are looking for a significant customisation of the plugin's "
+"functionality, please contact us via our CodeCanyon profile stating your "
+"exact requirements and budget.  Depending on workload, we may be able to "
+"help."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:35
+msgid ""
+"If you find a bug in the plugin, please let us know via our CodeCanyon "
+"profile and we will investigate the problem as soon as we are able.  Any "
+"fixes required will be issued by us updating the plugin on CodeCanyon."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:39
+msgid "New to UserCredits?  Quickstart Guide"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:40
+msgid "These are the key stages to setting up UserCredits:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:42 user-credits-help-usage-admin.php:52
+msgid "Installation"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:43
+msgid "General set-up"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:44
+msgid "Displaying balances"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:45
+msgid "Using credits around your site"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:46
+msgid "Setting up credit bundles"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:47
+msgid "Adding credits to users balances"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:48
+msgid "Transferring credits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:49 user-credits-help-usage-admin.php:95
+msgid "Customisation"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:53
+msgid ""
+"To install UserCredits, first download the plugin (as a zip file) from your "
+"Downloads area in CodeCanyon and save a copy on your hard drive.  Then "
+"select Add New from the Plugins menu on the WordPress dashboard.  Then "
+"select Upload followed by Browse.  When you have located and selected the "
+"zip file that you downloaded from CodeCanyon, click on the Install Now "
+"button.  When completed, select the Activate option and UserCredits will be "
+"ready for configuration on your site."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:55
+msgid "General Set-Up"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:56
+msgid ""
+"If you have installed the plugin correctly, there will be a UserCredits menu "
+"in the WordPress dashboard."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:57
+msgid "Click on the Set-Up page and review the 3 sections carefully."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:59
+msgid ""
+"Section 1 (Setting up UserCredits to Allow Credits to be Purchased via a "
+"Payment System). If you want to use a payment system (e.g. PayPal, Stripe, "
+"GoCardless) to enable your users to buy credits, then you need to set up "
+"this section correctly.  If you have purchased the UserCredits PayPal IPN "
+"Add-On, or you do not want to use a payment system, you do not need to "
+"complete this section."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:60
+msgid ""
+"Section 2 (General Settings).  Use this section to specify default settings "
+"for your site."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:61
+msgid ""
+"Section 3 (Email Settings).  Use this section to activate UserCredits' email "
+"notifications."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:63
+msgid ""
+"Visit the Custom Messages page to personalise the messages that UserCredits "
+"displays to your users."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:64
+msgid ""
+"Review each of the pages in the UserCredits area of the dashboard to see the "
+"new features and set-up your site."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:66
+msgid "Displaying Balances"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:67
+msgid ""
+"To display the user's balance use the &#0091;obr_display_balance&#0093; "
+"shortcode on a page or post.  Balances can also be displayed in the WP Admin "
+"bar at the top of the screen (use setting 2.4 on the Set-Up page) and/or in "
+"sidebars using the Display User's Balance widget which can be found under "
+"Appearance > Widgets."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:69
+msgid "Using Credits Around Your Site"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:70
+msgid ""
+"To enable users to spend their credits on your site, use the &#0091;"
+"obr_check_credits&#0093; shortcode."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:71
+msgid ""
+"To create a link to a page where you want credits to be used, use the &#0091;"
+"obr_page_button&#0093; shortcode."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:72
+msgid ""
+"Use multiple &#0091;obr_page_button&#0093; shortcodes on the same page to "
+"create a \"library\" page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:73
+msgid ""
+"The user will see a different button depending on whether they have "
+"previously paid for access to each individual page (providing that their "
+"access has not expired)."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:74
+msgid "Example Set-Up"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:75
+msgid ""
+"To illustrate how the site might be configured, let's consider the following "
+"situation, shown in the diagram below:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:77
+msgid "We want a \"library\" page which has links to 3 sub-pages."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:78
+msgid "It costs 10 credits to access page 1 for an hour (60 minutes)."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:79
+msgid ""
+"Buying page 2 gives access for 5 minutes and costs the default amount for "
+"the site, as specified in setting 2.2. on the Set-Up page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:80
+msgid ""
+"Page 3 costs 50 credits and access is for the number of minutes specified in "
+"setting 2.3 on the Set-Up page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:82
+msgid ""
+"You can find more detailed information about how to use the shortcodes to "
+"create these features on the Shortcode tab."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:85
+msgid "Setting Up Credit Bundles"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:86
+msgid ""
+"If you are using a payment system, visit the Bundles page and set up your "
+"credit bundles."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:87
+msgid ""
+"Remember that bundles do not need to have a linear correlation, so you can "
+"offer more (or less!) credits for each extra amount that your users pay for "
+"access to your site."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:89
+msgid "Adding Credits to Users Balances"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:90
+msgid ""
+"Credits are added using the &#0091;obr_add_credits&#0093; shortcode.  The "
+"monetary amount is checked against the available bundles and (when matched) "
+"automatically adds the relevant number of credits to the user's balance."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:92
+msgid "Transferring Credits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:93
+msgid ""
+"To enable the transferring of credits between users, check setting 2.5 on "
+"the Set-Up page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:96
+msgid ""
+"Further customisation is available through the use of WordPress Action and "
+"Filter Hooks, please see the Advanced tab for more information."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:99
+msgid "Upgrading from an Earlier Version of UserCredits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:100
+msgid ""
+"UserCredits underwent some big changes in version 4.0!  We listened to what "
+"our customers asked for and we completely re-wrote the plugin to give you "
+"lots of new and exciting features.  Many of the old features have changed "
+"and/or been retired."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:101
+msgid ""
+"If you're upgrading from v3.X to v4.X (or v5.X), here's a checklist of "
+"things that you'll need to do to be able to use the new version of "
+"UserCredits:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:103
+msgid "Backup all files and the WP database before you make any changes."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:105
+msgid "Review and replace all shortcodes using the following as a guide:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:109
+msgid "Old Shortcode"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:110
+msgid "New Shortcode"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:115
+msgid "[obr_increase_credits]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:116
+msgid "[obr_add_credits]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:119
+msgid "[obr_credits_balance]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:120 user-credits-help-usage-admin.php:124
+msgid "[obr_display_balance]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:123
+msgid "[obr_short_balance]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:127
+msgid "[obr_decrease_credits]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:128
+msgid "[obr_check_credits]"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:132
+msgid ""
+"Please see the Shortcodes tab for more detailed information on the new "
+"shortcodes and their usage."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:134
+msgid ""
+"Follow the instructions on the Quickstart tab to get UserCredits upgraded "
+"and running smoothly."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:139
+msgid "UserCredits is implemented via the shortcodes below."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:140
+msgid ""
+"You can type the shortcodes into a post or page, or, if you are using the "
+"Visual Editor, most shortcodes are available as a button.  Hover over the "
+"buttons to see which shortcodes are available, and click on the shortcode to "
+"see information on key parameters and usage."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:141
+msgid ""
+"Parameters are used to modify the default behaviour of the shortcode, for "
+"example, [obr_display_balance showexpiry=true] will ensure that expiry dates "
+"are shown when displaying a balance.  Parameters can be listed in any order "
+"after the shortcode name, but must be included before the ] symbol at the "
+"end of the shortcode."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:145
+msgid "Shortcode"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:146
+msgid "Purpose"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:147
+msgid "Parameters"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:154
+msgid ""
+"The &#0091;obr_display_balance&#0093; shortcode is used to display the "
+"user's credit balance on a page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:155 user-credits-help-usage-admin.php:176
+#: user-credits-help-usage-admin.php:198 user-credits-help-usage-admin.php:230
+msgid "This shortcode has a button in the visual editor."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:158
+msgid "There are four parameters available:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:160
+msgid ""
+"short.  Optional.  Example usage:  short=true.  Displays just the number of "
+"credits, allowing you to add it into text on a page, e.g. &lt;p&gt;Credit "
+"balance: &#0091;obr_display_balance short=true&#0093;&lt;/p&gt;"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:161
+msgid ""
+"singular.  Optional.  Default value: You have 1 credit.  Example usage:  "
+"singular=\"You currently have a balance of 1 credit.\".  This is the message "
+"displayed when the user has one credit.  Setting the parameter in the "
+"shortcode overwrites the global setting specificed in section 2 of the "
+"Custom Messages page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:162
+#, php-format
+msgid ""
+"plural.  Optional.  Default value: You have %d credits.  Example usage:  "
+"plural=\"You currently have a balance of %d credits.\".  This is the message "
+"displayed when the user has any number of credits other than one.  %d in the "
+"message will be replaced with the number of credits available.  Setting the "
+"parameter in the shortcode overwrites the global setting specificed in "
+"section 2 of the Custom Messages page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:163
+msgid ""
+"showexpiry.  Optional.  Example usage:  showexpiry=true.  Returns an expiry "
+"date (if there is one) in addition to the credits balance.  Please note that "
+"this parameter has no effect if the short parameter is set to true."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:165
+#, php-format
+msgid ""
+"With the singular and plural options above, to include an expiry date you "
+"will need to include reference to it in your message text string, e.g. \"You "
+"have 1 credit which expires on %s.\" and \"You have %d credits which expire "
+"on %s.\"."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:171
+msgid ""
+"The &#0091;obr_page_button&#0093; shortcode is used to create a button "
+"linking through to a specific page with restricted access.  Multiple "
+"instances of this shortcode can be put on one page to create links to a "
+"library of pages.  Each button can be in one of two states depending on "
+"whether:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:173
+msgid "The user has access to the page with restricted content; or"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:174
+msgid "The user does not have access to the page with restricted content."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:179
+msgid "There are three parameters available:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:181
+msgid ""
+"pageid.  Mandatory.  Example usage:  pageid=862.  Used to identify which "
+"page with restricted content is being referred to.  To identify the "
+"WordPress page or post id to use, go to the Post or Pages menu, and hover "
+"over the edit option to see the page id in the bar at the bottom of your "
+"browser."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:182
+msgid ""
+"access.  Optional.  Default value: Open Page.  Example usage:  access=\"Go "
+"To Page\".  This is the message displayed on the button when the user has "
+"already used credits to access the specific page or post."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:183
+msgid ""
+"noaccess:  Optional.  Default value: Page Preview.  Example usage:  noaccess="
+"\"Find Out More\".  This is the message displayed on the button when the "
+"user has not used credits to access the specific page or post, or when "
+"previous access to the page has expired."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:185
+msgid ""
+"Please note that to assist with styling the buttons (in your theme), the "
+"following CSS classes are automatically added to the page buttons depending "
+"on their state:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:187
+msgid ""
+"When the user has access to the page with restricted content, the button has "
+"a CSS class of \"green-button\"; or"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:188
+msgid ""
+"When the user does not have access to the page with restricted content, the "
+"button has a CSS class of \"red-button\"."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:190
+msgid ""
+"Additionally, all buttons created by this shortcode have a CSS class of "
+"\"page-button\" as well."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:196
+msgid ""
+"The &#0091;obr_check_credits&#0093; shortcode is used to restrict specific "
+"page content access only to users who have purchased access using their "
+"credits."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:197
+msgid ""
+"The &#0091;obr_end_preview&#0093; divider can be used within the shortcode "
+"to separate the preview part of the page from the protected course content."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:201
+msgid "There are two parameters available:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:203
+msgid ""
+"accesscost.  Optional.  Example usage:  accesscost=25.  This parameter "
+"allows you to vary the cost of a page from the default set in setting 2.2 on "
+"the Set-Up page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:204
+msgid ""
+"expiryminutes.  Optional.  Example usage:  expiryminutes=10.  This parameter "
+"allows you to vary the expiry period of a page from the default set in "
+"setting 2.3 on the Set-Up page.  The number used represents the number of "
+"minutes access to the page; set this parameter to zero to give unlimited "
+"access to the page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:206
+msgid ""
+"Please note that this is an enclosing shortcode, so an example of the "
+"correct usage is as follows:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:209
+msgid ""
+"Page content to be visible only to users who <em>have</em> used credits to "
+"access the page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:213
+msgid ""
+"To include a preview of the page content, structure the &#0091;"
+"obr_check_credits&#0093; shortcode as follows, using the &#0091;"
+"obr_end_preview&#0093; divider:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:216
+msgid ""
+"Preview or teaser which is visible only to users who <em>haven't</em> used "
+"credits to access the page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:219
+msgid ""
+"Page content which is visible only to users who <em>have</em> used credits "
+"to access the page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:228
+msgid ""
+"The &#0091;obr_add_credits&#0093; shortcode is used to process a monetary "
+"amount and to translate it into a credit balance."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:229
+msgid ""
+"The monetary amount is checked against the available bundles and when "
+"matched adds the relevant number of credits to the user's balance."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:233 user-credits-help-usage-admin.php:245
+#: user-credits-help-usage-admin.php:255 user-credits-help-usage-admin.php:265
+msgid "There are no parameters for use with this shortcode."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:234
+msgid ""
+"You <strong>must</strong> set-up the two variables which are defined in "
+"Section 1 of the Set-Up page for this shortcode to work correctly."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:235
+msgid ""
+"Advanced users may wish to review the \"obr_txn_check\" and "
+"\"obr_added_credits\" hooks for additional processing options; see the "
+"Advanced tab for more information."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:241
+msgid ""
+"The &#0091;obr_low_credits_email_alert&#0093; shortcode is not normally "
+"used, as this function is automated via setting 3.1 on the Set-Up page.  "
+"However, if your WordPress cron scheduler is not working correctly, this "
+"shortcode can be called; it will review all balances and send an email to "
+"those users with a balance below the default specified on the Set-Up page."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:242 user-credits-help-usage-admin.php:252
+#: user-credits-help-usage-admin.php:262
+msgid ""
+"Please note that this shortcode does not have a button in the visual editor."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:251
+msgid ""
+"The &#0091;obr_credits_added_email_alert&#0093; shortcode is not normally "
+"used, as this function is automated via setting 3.2 on the Set-Up page.  "
+"However, if your WordPress cron scheduler is not working correctly, this "
+"shortcode can be called; it will review all user accounts and send an email "
+"to inform those users that have had credits added since the last reminder "
+"that they have a credits balance available for use."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:261
+msgid ""
+"The &#0091;obr_balance_update_email_alert&#0093; shortcode is not normally "
+"used, as this function is automated via setting 3.3 on the Set-Up page.  "
+"However, if your WordPress cron scheduler is not working correctly, this "
+"shortcode can be called; it will send an email to all users showing their "
+"credits balance."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:271
+msgid "Action and Filter Hooks"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:272
+msgid ""
+"Advanced users may wish to further customise their installation of "
+"UserCredits.  To help you with this we've added a helpful range of action "
+"and filter hooks."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:273
+msgid ""
+"WordPress hooks allow plugins like UserCredits to \"hook\" into the rest of "
+"WordPress; i.e. to call functions in your plugin at specific times, letting "
+"you add your own custom functions to the plugin.  UserCredits' specific "
+"hooks are detailed in the table below."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:274
+msgid ""
+"To set up a hook, you will need to add a function calling the hook to your "
+"functions.php file in your active theme.  Here's an example which sends an "
+"email containing the data passed to the admin email address of the site:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:282
+msgid "Available Hooks:"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:286
+msgid "Hook"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:287
+msgid "Type"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:288
+msgid "Data Passed"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:289
+msgid "Description"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:295 user-credits-help-usage-admin.php:372
+#: user-credits-help-usage-admin.php:387
+msgid "Filter"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:297
+msgid ""
+"$input&#0091;'valid_txn'&#0093; contains whether the transaction is valid - "
+"the value is set to true unless modified by your custom processing"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:298 user-credits-help-usage-admin.php:315
+#: user-credits-help-usage-admin.php:330 user-credits-help-usage-admin.php:342
+#: user-credits-help-usage-admin.php:354
+msgid "$input&#0091;'userid'&#0093; contains the WordPress user id"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:299
+msgid "$input&#0091;'amount'&#0093; contains the amount of the transaction"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:300 user-credits-help-usage-admin.php:318
+#: user-credits-help-usage-admin.php:332 user-credits-help-usage-admin.php:344
+msgid "$input&#0091;'txn_id'&#0093; contains the transaction id reference"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:301
+msgid ""
+"$input&#0091;'credits'&#0093; contains the number of credits to be added"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:302
+msgid "$input&#0091;'expiry'&#0093; contains the expiry of the credits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:305
+msgid ""
+"A valid transaction is one where the transaction id has not been duplicated "
+"and the monetary amount matches that of a credit bundle."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:306
+msgid ""
+"This filter hook can be used to add further custom processing to an "
+"otherwise valid transaction."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:307
+msgid ""
+"When the custom processing has been completed, the value of "
+"$input&#0091;'valid_txn'&#0093; is used to decide whether the credits will "
+"be added or not.  If the transaction fails, the message in setting 1.6 of "
+"the Custom Messages page will be displayed."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:308
+msgid ""
+"To fail the transaction check, return an amount of <code>"
+"$input&#0091;'valid_txn'&#0093; = false;</code>"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:313 user-credits-help-usage-admin.php:328
+#: user-credits-help-usage-admin.php:340 user-credits-help-usage-admin.php:352
+#: user-credits-help-usage-admin.php:362
+msgid "Action"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:316
+msgid "$input&#0091;'amount'&#0093; contains the amount received"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:317 user-credits-help-usage-admin.php:331
+msgid ""
+"$input&#0091;'credits'&#0093; contains the number of credits being added"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:319 user-credits-help-usage-admin.php:345
+msgid ""
+"$input&#0091;'newbalance'&#0093; contains the user's credit balance after "
+"the transaction"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:320
+msgid "$input&#0091;'expiry'&#0093; contains the expiry date of the credits"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:323
+msgid ""
+"The \"obr_added_credits\" action is executed immediately after credits are "
+"added to a user's balance."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:335
+msgid ""
+"This action is performed after a user has been registered and the default "
+"number of credits have been added."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:343
+msgid ""
+"$input&#0091;'credits'&#0093; contains the number of credits that the page "
+"access cost"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:346
+msgid "$input&#0091;'expiry'&#0093; contains the expiry date of the page"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:348
+msgid "This action is performed after page access has been purchased."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:357
+msgid ""
+"This action is performed on the Transaction Log page after the user "
+"selection box and before the main results table."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:364
+msgid "No data passed"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:367
+msgid ""
+"This action is performed on the User Balances page after the user selection "
+"box and before the main results table."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:374 user-credits-help-usage-admin.php:389
+msgid ""
+"$input&#0091;'q'&#0093; contains the query results which are about to be "
+"paginated"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:375 user-credits-help-usage-admin.php:390
+msgid ""
+"$input&#0091;'pagenum'&#0093; contains the page number of the results which "
+"are about to be displayed"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:376 user-credits-help-usage-admin.php:391
+msgid ""
+"$input&#0091;'numberofrowsonpage'&#0093; contains the standard number of "
+"rows in the search results.  This is normally 20"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:377 user-credits-help-usage-admin.php:392
+msgid ""
+"$input&#0091;'offset'&#0093; contains the starting point of the results to "
+"be output.  For the first page that will be 0"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:378 user-credits-help-usage-admin.php:393
+msgid ""
+"$input&#0091;'num_of_pages'&#0093; contains the number of pages in total to "
+"be paginated"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:379
+msgid "$input&#0091;'userid'&#0093; contains the selected WordPress user id"
+msgstr ""
+
+#: user-credits-help-usage-admin.php:382
+msgid ""
+"This filter hook can be used to amend the output list on the Transaction Log "
+"page before it is displayed."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:396
+msgid ""
+"This filter hook can be used to amend the output list on the User Balances "
+"page before it is displayed."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:401
+#, php-format
+msgid ""
+"Learn more about <a href=\"%s\" target=\"_blank\">WordPress' API here</a>."
+msgstr ""
+
+#: user-credits-help-usage-admin.php:402
+msgid ""
+"Watch this space as we're planning on releasing more hooks in future "
+"releases."
+msgstr ""
+
+#: user-credits-init-actions.php:44
+msgid "The credits have been transferred."
+msgstr ""
+
+#: user-credits-init-actions.php:49
+msgid "The amount to transfer must be greater than zero."
+msgstr ""
+
+#: user-credits-init-actions.php:69
+msgid "Admin Adjustment"
+msgstr ""
+
+#: user-credits-init-actions.php:75
+msgid "The balances have been updated."
+msgstr ""
+
+#: user-credits-init-actions.php:79
+msgid "The balances could not be updated."
+msgstr ""
+
+#: user-credits-init-actions.php:155
+msgid "Your settings have been updated."
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:2
+msgid "UserCredits - My UserCredits Admin"
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:19
+#, php-format
+msgid "You have 1 credit which expires on %2$s."
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:20
+#, php-format
+msgid "You have %1$d credits which expire on %2$s."
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:28 user-credits.php:241
+msgid "My UserCredits"
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:56
+#: user-credits-my-usercredits-admin.php:79
+msgid "Transfer Credits"
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:61
+msgid ""
+"You can transfer credits to another user below.  If the amount of credits "
+"entered is greater than those available, all your credits will be "
+"transferred."
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:64
+msgid "Transfer"
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:68
+msgid "to"
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:79
+msgid "Are you sure?  Transfers cannot be recalled."
+msgstr ""
+
+#: user-credits-my-usercredits-admin.php:89
+msgid "Problem retrieving your balance.  Please contact the administrator."
+msgstr ""
+
+#: user-credits-page-access-admin.php:5 user-credits-page-access-admin.php:87
+#: user-credits-page-access-admin.php:204
+msgid "Show Detail"
+msgstr ""
+
+#: user-credits-page-access-admin.php:7 user-credits-page-access-admin.php:87
+#: user-credits-page-access-admin.php:204
+msgid "Hide Detail"
+msgstr ""
+
+#: user-credits-page-access-admin.php:12
+msgid "UserCredits - Current Page Access"
+msgstr ""
+
+#: user-credits-page-access-admin.php:17 user-credits-page-access-admin.php:21
+msgid "Switch to: "
+msgstr ""
+
+#: user-credits-page-access-admin.php:17
+msgid "View by User"
+msgstr ""
+
+#: user-credits-page-access-admin.php:21
+msgid "View by Page"
+msgstr ""
+
+#: user-credits-page-access-admin.php:65 user-credits-page-access-admin.php:217
+#: user-credits-transaction-log-admin.php:92
+#: user-credits-user-balances-admin.php:47
+msgid "ID"
+msgstr ""
+
+#: user-credits-page-access-admin.php:66 user-credits-page-access-admin.php:218
+#: user-credits-user-balances-admin.php:48
+msgid "User Login"
+msgstr ""
+
+#: user-credits-page-access-admin.php:67 user-credits-page-access-admin.php:219
+#: user-credits-transaction-log-admin.php:93
+msgid "Display Name"
+msgstr ""
+
+#: user-credits-page-access-admin.php:68 user-credits-page-access-admin.php:220
+#: user-credits-transaction-log-admin.php:94
+#: user-credits-user-balances-admin.php:49
+msgid "User Email"
+msgstr ""
+
+#: user-credits-page-access-admin.php:69
+msgid "Number of Pages"
+msgstr ""
+
+#: user-credits-page-access-admin.php:99
+msgid "Page Number"
+msgstr ""
+
+#: user-credits-page-access-admin.php:100
+#: user-credits-page-access-admin.php:186
+msgid "Page Name"
+msgstr ""
+
+#: user-credits-page-access-admin.php:101
+#: user-credits-page-access-admin.php:221
+msgid "Page Access Expiry"
+msgstr ""
+
+#: user-credits-page-access-admin.php:118
+#: user-credits-page-access-admin.php:239
+msgid "Does not expire"
+msgstr ""
+
+#: user-credits-page-access-admin.php:140
+#: user-credits-page-access-admin.php:261
+#: user-credits-transaction-log-admin.php:154
+#: user-credits-user-balances-admin.php:140
+msgid "&laquo;"
+msgstr ""
+
+#: user-credits-page-access-admin.php:141
+#: user-credits-page-access-admin.php:262
+#: user-credits-transaction-log-admin.php:155
+#: user-credits-user-balances-admin.php:141
+msgid "&raquo;"
+msgstr ""
+
+#: user-credits-page-access-admin.php:155
+#: user-credits-page-access-admin.php:276
+#: user-credits-user-balances-admin.php:156
+msgid "No results to display."
+msgstr ""
+
+#: user-credits-page-access-admin.php:185
+msgid "Page"
+msgstr ""
+
+#: user-credits-page-access-admin.php:187
+msgid "Number of Users"
+msgstr ""
+
+#: user-credits-set-up-admin.php:2
+msgid "UserCredits - Set-Up"
+msgstr ""
+
+#: user-credits-set-up-admin.php:38
+msgid "Value"
+msgstr ""
+
+#: user-credits-set-up-admin.php:44
+msgid ""
+"Setting up UserCredits to Allow Credits to be Purchased via a Payment System"
+msgstr ""
+
+#: user-credits-set-up-admin.php:48
+#, php-format
+msgid ""
+"If you want to use a payment system (e.g. PayPal, Stripe, GoCardless) to "
+"enable your users to buy credits, then you need to set up this section "
+"correctly.  We can't tell you exactly what your chosen payment system uses "
+"because they're all different.  However, to make it easier for you, we have "
+"created a <a href=\"%1$s\" target=\"_blank\">PayPal IPN Add-On</a> which "
+"makes it easy for you; you can find the <a href=\"%1$s\" target=\"_blank"
+"\">add-on here</a>."
+msgstr ""
+
+#: user-credits-set-up-admin.php:52
+msgid "Successful Payment Variable (SPV)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:56
+msgid ""
+"A Successful Payment Variable (SPV) is generated by a payment system when a "
+"monetary transaction has been correctly processed."
+msgstr ""
+
+#: user-credits-set-up-admin.php:60
+msgid ""
+"When you first install UserCredits, the SPV is set to \"addvalue\".  Change "
+"the SPV to the one that your payment provider uses."
+msgstr ""
+
+#: user-credits-set-up-admin.php:64
+msgid "Successful Payment Variable (SPV).  (Default: addvalue)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:69
+msgid "Transaction Identifier Variable (TIV)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:73
+msgid ""
+"A Transaction Identifier Variable (TIV) is a unique reference code generated "
+"by a payment system to identify a specific transaction."
+msgstr ""
+
+#: user-credits-set-up-admin.php:77
+msgid ""
+"When you first install UserCredits, the TIV is set to \"txnid\".  Change the "
+"TIV to the one that your payment provider uses."
+msgstr ""
+
+#: user-credits-set-up-admin.php:81
+msgid "Transaction Identifier Variable (TIV).  (Default: txnid)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:86
+msgid "Variable Transfer Method (VTM)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:90
+msgid ""
+"The Variable Transfer Method (VTM) is the way in which the SPV and TIV are "
+"captured by UserCredits."
+msgstr ""
+
+#: user-credits-set-up-admin.php:94
+msgid ""
+"When you first install UserCredits, the VTM is set to \"$_POST\".  Advanced "
+"PHP users may wish to use $_GET or $_REQUEST instead."
+msgstr ""
+
+#: user-credits-set-up-admin.php:98
+msgid "Variable Transfer Method (VTM).  (Default: $_POST)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:100
+msgid "$_POST"
+msgstr ""
+
+#: user-credits-set-up-admin.php:107
+msgid "$_GET"
+msgstr ""
+
+#: user-credits-set-up-admin.php:114
+msgid "$_REQUEST"
+msgstr ""
+
+#: user-credits-set-up-admin.php:118 user-credits-set-up-admin.php:229
+#: user-credits-set-up-admin.php:274
+msgid "Save All Settings"
+msgstr ""
+
+#: user-credits-set-up-admin.php:125
+msgid "General Settings"
+msgstr ""
+
+#: user-credits-set-up-admin.php:129
+msgid "Initial Credits"
+msgstr ""
+
+#: user-credits-set-up-admin.php:133
+msgid ""
+"The number of credits which are automatically added to a user's account when "
+"they register with your site.  (This is also the number of credits awarded "
+"if you enable options 1 or 3 on the Balance Resets page.)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:138
+msgid "Default Credits Required"
+msgstr ""
+
+#: user-credits-set-up-admin.php:142
+msgid ""
+"The default number of credits to access protected page content on your site."
+msgstr ""
+
+#: user-credits-set-up-admin.php:147
+msgid "Default Access Minutes"
+msgstr ""
+
+#: user-credits-set-up-admin.php:151
+msgid ""
+"The default access time (in minutes) for which a user can view the protected "
+"page content after using their credits to gain access.  Refer to the table "
+"below for more information."
+msgstr ""
+
+#: user-credits-set-up-admin.php:159
+msgid "Desired Period"
+msgstr ""
+
+#: user-credits-set-up-admin.php:160
+msgid "Set Default Access Time To"
+msgstr ""
+
+#: user-credits-set-up-admin.php:163
+msgid "Unlimited Access"
+msgstr ""
+
+#: user-credits-set-up-admin.php:164
+msgid "0"
+msgstr ""
+
+#: user-credits-set-up-admin.php:167
+msgid "1 minute"
+msgstr ""
+
+#: user-credits-set-up-admin.php:168
+msgid "1"
+msgstr ""
+
+#: user-credits-set-up-admin.php:171
+msgid "1 hour"
+msgstr ""
+
+#: user-credits-set-up-admin.php:172
+msgid "60"
+msgstr ""
+
+#: user-credits-set-up-admin.php:175
+msgid "1 day"
+msgstr ""
+
+#: user-credits-set-up-admin.php:176
+msgid "1440"
+msgstr ""
+
+#: user-credits-set-up-admin.php:179
+msgid "1 week"
+msgstr ""
+
+#: user-credits-set-up-admin.php:180
+msgid "10080"
+msgstr ""
+
+#: user-credits-set-up-admin.php:183
+msgid "1 month (30 days)"
+msgstr ""
+
+#: user-credits-set-up-admin.php:184
+msgid "43200"
+msgstr ""
+
+#: user-credits-set-up-admin.php:187
+msgid "1 year"
+msgstr ""
+
+#: user-credits-set-up-admin.php:188
+msgid "525600"
+msgstr ""
+
+#: user-credits-set-up-admin.php:195
+msgid "Admin Bar Balances"
+msgstr ""
+
+#: user-credits-set-up-admin.php:199
+msgid "Make your users' balances visible in the admin bar."
+msgstr ""
+
+#: user-credits-set-up-admin.php:204
+msgid "Allow Credit Transfers"
+msgstr ""
+
+#: user-credits-set-up-admin.php:208
+msgid "Allow your users to transfer credits to other users."
+msgstr ""
+
+#: user-credits-set-up-admin.php:213
+msgid ""
+"Please note that if you enable this function, users with available credits "
+"will be able to select another user (from a drop-down list of all users of "
+"the site on their MyUserCredits page) to send credits to."
+msgstr ""
+
+#: user-credits-set-up-admin.php:217
+msgid "Enable Currency Comma"
+msgstr ""
+
+#: user-credits-set-up-admin.php:221
+msgid ""
+"Enable the use of commas rather than full stops/periods as the decimal mark."
+msgstr ""
+
+#: user-credits-set-up-admin.php:226
+msgid ""
+"Please note that most users will leave this box unchecked.  However, if you "
+"are experiencing problems with the currency handling, then try enabling this "
+"function."
+msgstr ""
+
+#: user-credits-set-up-admin.php:236
+msgid "Email Settings"
+msgstr ""
+
+#: user-credits-set-up-admin.php:240
+msgid ""
+"Emails are sent using the WordPress cron scheduler, this means that the "
+"emails will be triggered by site visitors and hence the interval between "
+"emails may be significantly longer than the period specified below.  The "
+"WordPress Codex has more information about WP cron scheduling."
+msgstr ""
+
+#: user-credits-set-up-admin.php:244
+msgid ""
+"The email templates are stored in the \"email-templates\" directory of the "
+"plugin.  You may change these yourself, if you wish."
+msgstr ""
+
+#: user-credits-set-up-admin.php:248
+msgid "Low Credit Notifications"
+msgstr ""
+
+#: user-credits-set-up-admin.php:252
+msgid ""
+"The number of credits which triggers a daily low credit notification email.  "
+"If you do not want to use this function, set the value to 0 (zero) and no "
+"emails will be sent."
+msgstr ""
+
+#: user-credits-set-up-admin.php:257
+msgid "New Credits Notifications"
+msgstr ""
+
+#: user-credits-set-up-admin.php:261
+msgid ""
+"Alert your users when new credits are added.  This routine runs hourly (when "
+"enabled)."
+msgstr ""
+
+#: user-credits-set-up-admin.php:266
+msgid "Balance Update Notifications"
+msgstr ""
+
+#: user-credits-set-up-admin.php:270
+msgid "Send a balance update to all users once a week."
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:2
+msgid "UserCredits - Transaction Log"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:18
+#, php-format
+msgid "User %s selected."
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:20
+msgid "All users selected."
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:30
+msgid ""
+"This page shows you all the credits which have been processed by "
+"UserCredits, including purchases, usage and amendments."
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:32
+msgid "You can filter the results shown by live users below."
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:40
+msgid "All Live Users"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:41
+msgid "Go"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:95
+msgid "No of Credits Added/-Deducted"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:96
+msgid "Details/Transaction ID"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:97
+msgid "Unique Log Ref"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:98
+msgid "Date/Time"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:114
+#: user-credits-transaction-log-admin.php:122
+msgid "Deleted User"
+msgstr ""
+
+#: user-credits-transaction-log-admin.php:174
+msgid "No transactions to display."
+msgstr ""
+
+#: user-credits-user-balances-admin.php:2
+msgid "UserCredits - User Balances"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:50
+msgid "Registration Date"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:51
+msgid "Credits"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:52
+msgid "Expiry Date"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:53
+msgid "Update Expiry Date"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:54
+msgid "Last Credit Update"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:55
+msgid "Last Email Sent"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:56
+msgid "Default Bundle"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:64
+msgid "Click to email the user using your email client"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:67
+msgid "Date on which all credits expire"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:68
+msgid "Check the box, then select from the dropdown list"
+msgstr ""
+
+#: user-credits-user-balances-admin.php:71
+msgid "Last bundle added.  See the Balance Resets page for more info."
+msgstr ""
+
+#: user-credits-user-balances-admin.php:110 user-credits.php:1385
+msgid "None"
+msgstr ""
+
+#: user-credits.php:66
+msgid "Unlimited"
+msgstr ""
+
+#: user-credits.php:66
+msgid "1 Week"
+msgstr ""
+
+#: user-credits.php:66
+msgid "1 Month"
+msgstr ""
+
+#: user-credits.php:66
+msgid "3 Months"
+msgstr ""
+
+#: user-credits.php:66
+msgid "6 Months"
+msgstr ""
+
+#: user-credits.php:66
+msgid "1 Year"
+msgstr ""
+
+#: user-credits.php:137
+#, php-format
+msgid "UserCredits Updated to Version %s"
+msgstr ""
+
+#: user-credits.php:242
+msgid "Set-Up"
+msgstr ""
+
+#: user-credits.php:243
+msgid "Bundles"
+msgstr ""
+
+#: user-credits.php:244
+msgid "User Balances"
+msgstr ""
+
+#: user-credits.php:245
+msgid "Page Access"
+msgstr ""
+
+#: user-credits.php:246
+msgid "Balance Resets"
+msgstr ""
+
+#: user-credits.php:247
+msgid "Transaction Log"
+msgstr ""
+
+#: user-credits.php:248
+msgid "Custom Messages"
+msgstr ""
+
+#: user-credits.php:249
+msgid "Help & Usage"
+msgstr ""
+
+#: user-credits.php:376
+#, php-format
+msgid "User %d registered with %d credits."
+msgstr ""
+
+#: user-credits.php:397
+#, php-format
+msgid "User %d (%s) deleted with %d credits."
+msgstr ""
+
+#: user-credits.php:429
+#, php-format
+msgid "Credits have been added to your account.  You have %d credits available"
+msgstr ""
+
+#: user-credits.php:472
+#, php-format
+msgid "Your credits are running low.  You only have %d credits available"
+msgstr ""
+
+#: user-credits.php:518
+#, php-format
+msgid "You have %d credits available"
+msgstr ""
+
+#: user-credits.php:667
+#, php-format
+msgid "Purchased indefinite access to page %d"
+msgstr ""
+
+#: user-credits.php:673
+#, php-format
+msgid "Purchased access to page %d until %s"
+msgstr ""
+
+#: user-credits.php:871
+#, php-format
+msgid "%1$d credits expired at %2$s"
+msgstr ""
+
+#: user-credits.php:1310
+msgid "Credit bundle updated."
+msgstr ""
+
+#: user-credits.php:1324
+msgid "Credit bundle deleted."
+msgstr ""
+
+#: user-credits.php:1342
+msgid "Credit bundle added."
+msgstr ""
+
+#: user-credits.php:1346
+msgid ""
+"Values and/or credits must be unique to avoid confusion with existing "
+"bundles."
+msgstr ""
+
+#: user-credits.php:1349
+msgid "Credit bundle could not be added."
+msgstr ""
+
+#: user-credits.php:1393
+#, php-format
+msgid "Bundle %1$d (%2$01.2f value - %3$d credits)"
+msgstr ""
+
+#: user-credits.php:1445
+#, php-format
+msgid "User %1$d (%2$s) updated to %3$d credits."
+msgstr ""
+
+#: user-credits.php:1449
+msgid "1 user was updated."
+msgstr ""
+
+#: user-credits.php:1449
+#, php-format
+msgid "%d user(s) were updated."
+msgstr ""
+
+#: user-credits.php:1451
+msgid "No users needed updating."
+msgstr ""
+
+#: user-credits.php:1460
+#, php-format
+msgid "UserCredits on %s"
+msgstr ""
+
+#: user-credits.php:1475
+msgid "Once A Week"
+msgstr ""
+
+#: user-credits.php:1552
+msgid ""
+"Display user's credit balances in the sidebar.  Only displayed to logged in "
+"users."
+msgstr ""
+
+#: user-credits.php:1555
+msgid "UserCredits - Display User's Balance"
+msgstr ""
+
+#: user-credits.php:1575
+msgid "Your Credits"
+msgstr ""
+
+#: user-credits.php:1598
+msgid "Credits Balance"
+msgstr ""
+
+#: user-credits.php:1610 user-credits.php:1705 user-credits.php:1789
+msgid "Title:"
+msgstr ""
+
+#: user-credits.php:1614
+msgid "Singular:"
+msgstr ""
+
+#: user-credits.php:1618
+#, php-format
+msgid ""
+"Plural (use %d where you want the actual number of credits to be displayed):"
+msgstr ""
+
+#: user-credits.php:1632
+msgid ""
+"Display highest user balance in the sidebar.  Always displayed (regardless "
+"of whether user is logged in or not)."
+msgstr ""
+
+#: user-credits.php:1635
+msgid "UserCredits - Display Highest Balance"
+msgstr ""
+
+#: user-credits.php:1658 user-credits.php:1690
+msgid "Highest Balance"
+msgstr ""
+
+#: user-credits.php:1661
+#, php-format
+msgid "%s has 1 credit."
+msgstr ""
+
+#: user-credits.php:1664
+#, php-format
+msgid "%s has %d credits."
+msgstr ""
+
+#: user-credits.php:1667
+msgid "Congratulations!  You're the top dog."
+msgstr ""
+
+#: user-credits.php:1709
+#, php-format
+msgid "Singular (use %s where you want the user's name to be displayed):"
+msgstr ""
+
+#: user-credits.php:1713
+#, php-format
+msgid ""
+"Plural (use %1$s where you want the user's name to be displayed and %2$d "
+"where you want the actual number of credits to be displayed):"
+msgstr ""
+
+#: user-credits.php:1717
+msgid ""
+"Top dog message, i.e. message to be displayed if the current user also has "
+"the highest balance:"
+msgstr ""
+
+#: user-credits.php:1731
+msgid ""
+"Display the user with the most recent credits added in the sidebar.  Always "
+"displayed (regardless of whether user is logged in or not)."
+msgstr ""
+
+#: user-credits.php:1734
+msgid "UserCredits - Display Latest Credits Added"
+msgstr ""
+
+#: user-credits.php:1755 user-credits.php:1777
+msgid "Most Recent Credits Added"
+msgstr ""
+
+#: user-credits.php:1758
+#, php-format
+msgid "%1$s received 1 credit at %3$s."
+msgstr ""
+
+#: user-credits.php:1761
+#, php-format
+msgid "%1$s received %2$d credits at %3$s."
+msgstr ""
+
+#: user-credits.php:1793
+#, php-format
+msgid ""
+"Singular (use %1$s where you want the user's name to be displayed.  Use %3$s "
+"for the time of the purchase):"
+msgstr ""
+
+#: user-credits.php:1797
+#, php-format
+msgid ""
+"Plural (use %1$s where you want the user's name to be displayed.  Use %2$d "
+"for the number of credits purchased and %3$s for the time of the purchase):"
+msgstr ""

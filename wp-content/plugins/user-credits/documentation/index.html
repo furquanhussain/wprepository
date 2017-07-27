@@ -1,0 +1,447 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>UserCredits</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Outerbridge">
+	<meta name="copyright" content="Outerbridge">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-07-23T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#4362AE;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #4362AE);
+			  background-image: -ms-linear-gradient(top, #0088CC, #4362AE);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#4362AE));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #4362AE);
+			  background-image: -o-linear-gradient(top, #0088CC, #4362AE);
+			  background-image: linear-gradient(top, #0088CC, #4362AE);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#4362AE', GradientType=0);
+			  border-color: #4362AE #4362AE #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #4362AE;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-usercredits">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#introduction_to_usercredits" title="Introduction to UserCredits">Introduction to UserCredits</a></li>
+			<li><a href="#new_to_usercredits_quickstart_guide" title="New to UserCredits?  Quickstart Guide">New to UserCredits?  Quickstart Guide</a></li>
+			<li><a href="#upgrading_from_an_earlier_version_of_usercredits" title="Upgrading from an Earlier Version of UserCredits">Upgrading from an Earlier Version of UserCredits</a></li>
+			<li><a href="#shortcodes" title="Shortcodes">Shortcodes</a></li>
+			<li><a href="#advanced" title="Advanced">Advanced</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Outerbridge 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>UserCredits</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 02/07/2014</li>
+	<li>latest update: 23/07/2014</li>
+	<li>by: Outerbridge</li>
+	<li><a href="http://outerbridge.freshdesk.com"></a></li>
+	
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="introduction_to_usercredits">
+	<div class="page-header"><h3>Introduction to UserCredits</h3><hr class="notop"></div>
+		<p style="color: #f00;">IMPORTANT: The UserCredits underwent a major rewrite for version 4.0.  If you're upgrading from V3.x to V4.x, you MUST make the changes set out on the <strong>Upgrading UserCredits</strong> tab otherwise UserCredits will not work properly.</p>
+		<br />
+		<h4 id="introduction_to_usercredits_intro">Intro</h4>
+		<p>UserCredits from Outerbridge is a plugin for WordPress which allows monetary amounts to be translated into credits for use on a website. Credits can then be used to perform certain operations on the site, such as accessing a restricted page on the website.</p>
+		<p>It is implemented on the website through the use of shortcodes. Shortcodes are special WordPress instructions encased within square brackets, e.g. &#0091;obr_display_balance&#0093;, that can be used on pages and/or posts to make some complicated things happen.</p>
+		<p>The UserCredits plugin allows you to have an unlimited number of users and an unlimited number of credit bundles.  You can set expiry dates for users' credits and there is even the option to automatically reset balances at specific intervals.  Users can be given the option of transferring credits between themselves, and all users have access to their own transaction log history.</p>
+		<p>Please note that we refer to GBP in our examples but the UserCredits plugin is not dependent on any currency; you can use any currency you choose. Bundles can be set up for whole pounds (dollars, etc.) or one-hundredths, i.e. pence (cents, etc.).</p>
+		<br />
+		<h4 id="introduction_to_usercredits_new_to_usercredits">New to UserCredits?</h4>
+		<p>Follow the instructions on the Quickstart tab to get UserCredits up and running quickly.</p>
+		<br />
+		<h4 id="introduction_to_usercredits_upgrading_usercredits">Upgrading UserCredits</h4>
+		<p style="color: #f00;">IMPORTANT: The UserCredits underwent a major rewrite for version 4.0.  If you're upgrading from V3.x to V4.x, you MUST make the changes set out on the <strong>Upgrading UserCredits</strong> tab otherwise UserCredits will not work properly.</p>
+		<br />
+		<h4 id="introduction_to_usercredits_need_more_help">Need More Help?</h4>
+		<p>If, having thoroughly read the documentation, you are still unsure and need further assistance, please contact us via our <a href="http://outerbridge.freshdesk.com">support desk</a> and we will do our utmost to assist you.  This is the only method of post-sales support.  Please note that you will need your CodeCanyon purchase code.</p>
+		<br />
+
+
+</section>
+<section id="new_to_usercredits_quickstart_guide">
+	<div class="page-header"><h3>New to UserCredits?  Quickstart Guide</h3><hr class="notop"></div>
+		<p>These are the key stages to setting up UserCredits:</p>
+		<ol>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#generalsetup">General set-up</a></li>
+			<li><a href="#displayingbalances">Displaying balances</a></li>
+			<li><a href="#usingcredits">Using credits around your site</a></li>
+			<li><a href="#setupbundles">Setting up credit bundles</a></li>
+			<li><a href="#addingcredits">Adding credits to users balances</a></li>
+			<li><a href="#transferringcredits">Transferring credits</a></li>
+			<li><a href="#customisation">Customisation</a></li>
+		</ol>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_installation">Installation</h4>
+		<p>To install UserCredits, first download the plugin (as a zip file) from your Downloads area in CodeCanyon and save a copy on your hard drive.  Then select Add New from the Plugins menu on the WordPress dashboard.  Then select Upload followed by Browse.  When you have located and selected the zip file that you downloaded from CodeCanyon, click on the Install Now button.  When completed, select the Activate option and UserCredits will be ready for configuration on your site.</p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_general_set_up">General Set-Up</h4>
+		<p>If you have installed the plugin correctly, there will be a UserCredits menu in the WordPress dashboard.</p>
+		<p>Click on the Set-Up page and review the 3 sections carefully.</p>
+		<ol>
+			<li>Section 1 (Setting up UserCredits to Allow Credits to be Purchased via a Payment System). If you want to use a payment system (e.g. PayPal, Stripe, GoCardless) to enable your users to buy credits, then you need to set up this section correctly.  If you have purchased the UserCredits PayPal IPN Add-On, or you do not want to use a payment system, you do not need to complete this section.</li>
+			<li>Section 2 (General Settings).  Use this section to specify default settings for your site.</li>
+			<li>Section 3 (Email Settings).  Use this section to activate UserCredits' email notifications.</li>
+		</ol>
+		<p>Visit the Custom Messages page to personalise the messages that UserCredits displays to your users.</p>
+		<p>Review each of the pages in the UserCredits area of the dashboard to see the new features and set-up your site.</p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_displaying_balances">Displaying Balances</h4>
+		<p>To display the user's balance use the &#0091;obr_display_balance&#0093; shortcode on a page or post.  Balances can also be displayed in the WP Admin bar at the top of the screen (use setting 2.4 on the Set-Up page) and/or in sidebars using the Display User's Balance widget which can be found under Appearance > Widgets.</p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_using_credits_around_your_site">Using Credits Around Your Site</h4>
+		<p>To enable users to spend their credits on your site, use the &#0091;obr_check_credits&#0093; shortcode.</p>
+		<p>To create a link to a page where you want credits to be used, use the &#0091;obr_page_button&#0093; shortcode.</p>
+		<p>Use multiple &#0091;obr_page_button&#0093; shortcodes on the same page to create a "library" page.</p>
+		<p>The user will see a different button depending on whether they have previously paid for access to each individual page (providing that their access has not expired).</p>
+		<h5>Example Set-Up</h5>
+		<p>To illustrate how the site might be configured, let's consider the following situation, shown in the diagram below:</p>
+		<ol>
+			<li>We want a "library" page which has links to 3 sub-pages.</li>
+			<li>It costs 10 credits to access page 1 for an hour (60 minutes).</li>
+			<li>Buying page 2 gives access for 5 minutes and costs the default amount for the site, as specified in setting 2.2. on the Set-Up page.</li>
+			<li>Page 3 costs 50 credits and access is for the number of minutes specified in setting 2.3 on the Set-Up page.</li>
+		</ol>
+		<p>You can find more detailed information about how to use the shortcodes to create these features on the Shortcode tab.</p>
+		<p><img src="assets/images/flowchart.jpg" alt="using credits diagram" style="width: 100%;" /></p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_setting_up_credit_bundles">Setting Up Credit Bundles</h4>
+		<p>If you are using a payment system, visit the Bundles page and set up your credit bundles.</p>
+		<p>Remember that bundles do not need to have a linear correlation, so you can offer more (or less!) credits for each extra amount that your users pay for access to your site.</p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_adding_credits_to_users_balances">Adding Credits to Users Balances</h4>
+		<p>Credits are added using the &#0091;obr_add_credits&#0093; shortcode.  The monetary amount is checked against the available bundles and (when matched) automatically adds the relevant number of credits to the user's balance.</p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_transferring_credits">Transferring Credits</h4>
+		<p>To enable the transferring of credits between users, check setting 2.5 on the Set-Up page.</p>
+		<br />
+		<h4 id="new_to_usercredits_quickstart_guide_customisation">Customisation</h4>
+		<p>Further customisation is available through the use of WordPress Action and Filter Hooks, please see the Advanced tab for more information.</p>
+		<br />
+</section>
+<section id="upgrading_from_an_earlier_version_of_usercredits">
+	<div class="page-header"><h3>Upgrading from an Earlier Version of UserCredits</h3><hr class="notop"></div>
+		<p>UserCredits has undergone some big changes!  We've listened to what our customers have asked for and we've completely re-written the plugin to give you lots of new and exciting features.  Many of the old features have changed and/or been retired.</p>
+		<p>Here's a checklist of things that you'll need to do to be able to use the new version of UserCredits:</p>
+		<ol>
+			<li>Backup all files and the WP database before you make any changes.</li>
+			<li>
+				Review and replace all shortcodes using the following as a guide:
+				<table class="wp-list-table widefat">
+					<thead>
+						<tr>
+							<th>Old Shortcode</th>
+							<th>New Shortcode</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="alternate">
+							<td>[obr_increase_credits]</td>
+							<td>[obr_add_credits]</td>
+						</tr>
+						<tr>
+							<td>[obr_credits_balance]</td>
+							<td>[obr_display_balance]</td>
+						</tr>
+						<tr class="alternate">
+							<td>[obr_short_balance]</td>
+							<td>[obr_display_balance]</td>
+						</tr>
+						<tr>
+							<td>[obr_decrease_credits]</td>
+							<td>[obr_check_credits]</td>
+						</tr>
+					</tbody>
+				</table>
+				Please see the Shortcodes tab for more detailed information on the new shortcodes and their usage.
+			</li>
+			<li>Follow the instructions on the Quickstart tab to get UserCredits upgraded and running smoothly.</li>
+		</ol>
+		<br />
+</section>
+<section id="shortcodes">
+	<div class="page-header"><h3>Shortcodes</h3><hr class="notop"></div>
+		<p>UserCredits is implemented via the shortcodes below.</p>
+		<p>You can type the shortcodes into a post or page, or, if you are using the Visual Editor, most shortcodes are available as a button.  Hover over the buttons to see which shortcodes are available, and click on the shortcode to see information on key parameters and usage.</p>
+		<p>Parameters are used to modify the default behaviour of the shortcode, for example, [obr_display_balance showexpiry=true] will ensure that expiry dates are shown when displaying a balance.  Parameters can be listed in any order after the shortcode name, but must be included before the ] symbol at the end of the shortcode.</p>
+		<table class="wp-list-table widefat">
+			<thead>
+				<tr>
+					<th>Shortcode</th>
+					<th>Purpose</th>
+					<th>Parameters</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="alternate">
+					<td>&#0091;obr_display_balance&#0093;</td>
+					<td>
+						<p>The &#0091;obr_display_balance&#0093; shortcode is used to display the user's credit balance on a page.</p>
+						<p>This shortcode has a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are four parameters available:</p>
+						<ol>
+							<li>short.  Optional.  Example usage:  short=true.  Displays just the number of credits, allowing you to add it into text on a page, e.g. &lt;p&gt;Credit balance: &#0091;obr_display_balance short=true&#0093;&lt;/p&gt;</li>
+							<li>singular.  Optional.  Default value: You have 1 credit.  Example usage:  singular="You currently have a balance of 1 credit.".  This is the message displayed when the user has one credit.  Setting the parameter in the shortcode overwrites the global setting specificed in section 2 of the Custom Messages page.</li>
+							<li>plural.  Optional.  Default value: You have %d credits.  Example usage:  plural="You currently have a balance of %d credits.".  This is the message displayed when the user has any number of credits other than one.  %d in the message will be replaced with the number of credits available.  Setting the parameter in the shortcode overwrites the global setting specificed in section 2 of the Custom Messages page.</li>
+							<li>showexpiry.  Optional.  Example usage:  showexpiry=true.  Returns an expiry date (if there is one) in addition to the credits balance.  Please note that this parameter has no effect if the short parameter is set to true.</li>
+						</ol>
+						<p>With the singular and plural options above, to include an expiry date you will need to include reference to it in your message text string, e.g. "You have 1 credit which expires on %s." and "You have %d credits which expire on %s.".</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&#0091;obr_page_button&#0093;</td>
+					<td>
+						<p>The &#0091;obr_page_button&#0093; shortcode is used to create a button linking through to a specific page with restricted access.  Multiple instances of this shortcode can be put on one page to create links to a library of pages.  Each button can be in one of two states depending on whether:</p>
+						<ol>
+							<li>The user has access to the page with restricted content; or</li>
+							<li>The user does not have access to the page with restricted content.</li>
+						</ol>
+						<p>This shortcode has a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are three parameters available:</p>
+						<ol>
+							<li>pageid.  Mandatory.  Example usage:  pageid=862.  Used to identify which page with restricted content is being referred to.  To identify the WordPress page or post id to use, go to the Post or Pages menu, and hover over the edit option to see the page id in the bar at the bottom of your browser.</li>
+							<li>access.  Optional.  Default value: Open Page.  Example usage:  access="Go To Page".  This is the message displayed on the button when the user has already used credits to access the specific page or post.</li>
+							<li>noaccess:  Optional.  Default value: Page Preview.  Example usage:  noaccess="Find Out More".  This is the message displayed on the button when the user has not used credits to access the specific page or post, or when previous access to the page has expired.</li>
+						</ol>
+						<p>Please note that to assist with styling the buttons (in your theme), the following CSS classes are automatically added to the page buttons depending on their state:</p>
+						<ol>
+							<li>When the user has access to the page with restricted content, the button has a CSS class of "green-button"; or</li>
+							<li>When the user does not have access to the page with restricted content, the button has a CSS class of "red-button".</li>
+						</ol>
+						<p>Additionally, all buttons created by this shortcode have a CSS class of "page-button" as well.</p>
+					</td>
+				</tr>
+				<tr class="alternate">
+					<td>&#0091;obr_check_credits&#0093;</td>
+					<td>
+						<p>The &#0091;obr_check_credits&#0093; shortcode is used to restrict specific page content access only to users who have purchased access using their credits.</p>
+						<p>The &#0091;obr_end_preview&#0093; divider can be used within the shortcode to separate the preview part of the page from the protected course content.</p>
+						<p>This shortcode has a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are two parameters available:</p>
+						<ol>
+							<li>accesscost.  Optional.  Example usage:  accesscost=25.  This parameter allows you to vary the cost of a page from the default set in setting 2.2 on the Set-Up page.</li>
+							<li>expiryminutes.  Optional.  Example usage:  expiryminutes=10.  This parameter allows you to vary the expiry period of a page from the default set in setting 2.3 on the Set-Up page.  The number used represents the number of minutes access to the page; set this parameter to zero to give unlimited access to the page.</li>
+						</ol>
+						<p>Please note that this is an enclosing shortcode, so an example of the correct usage is as follows:</p>
+						<pre>
+&#0091;obr_check_credits&#0093;
+Page content to be visible only to users who <em>have</em> used credits to access the page.
+&#0091;/obr_check_credits&#0093;
+						</pre>
+						<p>To include a preview of the page content, structure the &#0091;obr_check_credits&#0093; shortcode as follows, using the &#0091;obr_end_preview&#0093; divider:</p>
+						<pre>
+&#0091;obr_check_credits&#0093;
+Preview or teaser which is visible only to users who <em>haven't</em> used credits to access the page.
+&#0091;obr_end_preview&#0093;
+Page content which is visible only to users who <em>have</em> used credits to access the page.
+&#0091;/obr_check_credits&#0093;
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>&#0091;obr_add_credits&#0093;</td>
+					<td>
+						<p>The &#0091;obr_add_credits&#0093; shortcode is used to process a monetary amount and to translate it into a credit balance.</p>
+						<p>The monetary amount is checked against the available bundles and when matched adds the relevant number of credits to the user's balance.</p>
+						<p>This shortcode has a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are no parameters for use with this shortcode.</p>
+						<p>You <strong>must</strong> set-up the two variables which are defined in Section 1 of the Set-Up page for this shortcode to work correctly.</p>
+						<p>Advanced users may wish to review the "obr_txn_check" and "obr_added_credits" hooks for additional processing options; see the Advanced tab for more information.</p>
+					</td>
+				</tr>
+				<tr class="alternate">
+					<td>&#0091;obr_low_credits_email_alert&#0093;</td>
+					<td>
+						<p>The &#0091;obr_low_credits_email_alert&#0093; shortcode is not normally used, as this function is automated via setting 3.1 on the Set-Up page.  However, if your WordPress cron scheduler is not working correctly, this shortcode can be called; it will review all balances and send an email to those users with a balance below the default specified on the Set-Up page.</p>
+						<p>Please note that this shortcode does not have a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are no parameters for use with this shortcode.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&#0091;obr_credits_added_email_alert&#0093;</td>
+					<td>
+						<p>The &#0091;obr_credits_added_email_alert&#0093; shortcode is not normally used, as this function is automated via setting 3.2 on the Set-Up page.  However, if your WordPress cron scheduler is not working correctly, this shortcode can be called; it will review all user accounts and send an email to inform those users that have had credits added since the last reminder that they have a credits balance available for use.</p>
+						<p>Please note that this shortcode does not have a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are no parameters for use with this shortcode.</p>
+					</td>
+				</tr>
+				<tr class="alternate">
+					<td>&#0091;obr_balance_update_email_alert&#0093;</td>
+					<td>
+						<p>The &#0091;obr_balance_update_email_alert&#0093; shortcode is not normally used, as this function is automated via setting 3.3 on the Set-Up page.  However, if your WordPress cron scheduler is not working correctly, this shortcode can be called; it will send an email to all users showing their credits balance.</p>
+						<p>Please note that this shortcode does not have a button in the visual editor.</p>
+					</td>
+					<td>
+						<p>There are no parameters for use with this shortcode.</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+</section>
+<section id="advanced">
+	<div class="page-header"><h3>Advanced</h3><hr class="notop"></div>
+		<h4 id="advanced_action_and_filter_hooks">Action and Filter Hooks</h4>
+		<p>Advanced users may wish to further customise their installation of UserCredits.  To help you with this we've added a helpful range of action and filter hooks.</p>
+		<p>WordPress hooks allow plugins like UserCredits to "hook" into the rest of WordPress; i.e. to call functions in your plugin at specific times, letting you add your own custom functions to the plugin.  UserCredits' specific hooks are detailed in the table below.</p>
+		<p>To set up a hook, you will need to add a function calling the hook to your functions.php file in your active theme.  Here's an example which sends an email containing the data passed to the admin email address of the site:</p>
+		<pre>
+function creditsadded($input){
+	// my customised function
+	wp_mail(get_option('admin_email'), 'obr_added_credits example', json_encode($input));
+}
+add_action('obr_added_credits', 'creditsadded');
+		</pre>
+		<h4 id="advanced_available_hooks">Available Hooks:</h4>
+		<table class="wp-list-table widefat">
+			<thead>
+				<tr>
+					<th>Hook</th>
+					<th>Type</th>
+					<th>Data Passed</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="alternate">
+					<td>obr_txn_check</td>
+					<td>Filter</td>
+					<td>
+						<p>$input&#0091;'valid_txn'&#0093; contains whether the transaction is valid - the value is set to true unless modified by your custom processing</p>
+						<p>$input&#0091;'userid'&#0093; contains the WordPress user id</p>
+						<p>$input&#0091;'amount'&#0093; contains the amount of the transaction</p>
+						<p>$input&#0091;'txn_id'&#0093; contains the transaction id reference</p>
+						<p>$input&#0091;'credits'&#0093; contains the number of credits to be added</p>
+						<p>$input&#0091;'expiry'&#0093; contains the expiry of the credits</p>
+					</td>
+					<td>
+						<p>A valid transaction is one where the transaction id has not been duplicated and the monetary amount matches that of a credit bundle.</p>
+						<p>This filter hook can be used to add further custom processing to an otherwise valid transaction.</p>
+						<p>When the custom processing has been completed, the value of $input&#0091;'valid_txn'&#0093; is used to decide whether the credits will be added or not.  If the transaction fails, the message in setting 1.6 of the Custom Messages page will be displayed.</p>
+						<p>To fail the transaction check, return an amount of <code>$input&#0091;'valid_txn'&#0093; = false;</code></p>
+					</td>
+				</tr>
+				<tr>
+					<td>obr_added_credits</td>
+					<td>Action</td>
+					<td>
+						<p>$input&#0091;'userid'&#0093; contains the WordPress user id</p>
+						<p>$input&#0091;'amount'&#0093; contains the amount received</p>
+						<p>$input&#0091;'credits'&#0093; contains the number of credits being added</p>
+						<p>$input&#0091;'txn_id'&#0093; contains the transaction id reference</p>
+						<p>$input&#0091;'newbalance'&#0093; contains the user's credit balance after the transaction</p>
+						<p>$input&#0091;'expiry'&#0093; contains the expiry date of the credits</p>
+					</td>
+					<td>
+						<p>The "obr_added_credits" action is executed immediately after credits are added to a user's balance.</p>
+					</td>
+				</tr>
+				<tr class="alternate">
+					<td>obr_user_registered</td>
+					<td>Action</td>
+					<td>
+						<p>$input&#0091;'userid'&#0093; contains the WordPress user id</p>
+						<p>$input&#0091;'credits'&#0093; contains the number of credits being added</p>
+						<p>$input&#0091;'txn_id'&#0093; contains the transaction id reference</p>
+					</td>
+					<td>
+						<p>This action is performed after a user has been registered and the default number of credits have been added.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>obr_credits_redeemed</td>
+					<td>Action</td>
+					<td>
+						<p>$input&#0091;'userid'&#0093; contains the WordPress user id</p>
+						<p>$input&#0091;'credits'&#0093; contains the number of credits that the page access cost</p>
+						<p>$input&#0091;'txn_id'&#0093; contains the transaction id reference</p>
+						<p>$input&#0091;'newbalance'&#0093; contains the user's credit balance after the transaction</p>
+						<p>$input&#0091;'expiry'&#0093; contains the expiry date of the page</p>
+					</td>
+					<td>This action is performed after page access has been purchased.</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Learn more about <a href="http://codex.wordpress.org/Plugin_API" target="_blank">WordPress' API here</a>.</p>
+		<p>Watch this space as we're planning on releasing more hooks in future releases.</p>
+</section>
+
+	</div>
+</body>
+</html>

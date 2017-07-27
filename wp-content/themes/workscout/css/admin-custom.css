@@ -1,0 +1,33 @@
+.admin-chat-container{
+	background-color: #fff;
+}
+	
+.um-message-item-content a {color: #3ba1da; text-decoration: underline !important}
+.um-message-item-content a:hover {color: rgba(59, 161, 218, 0.9)}
+
+.um-message-item.left_m .um-message-item-content a {color: #fff}
+
+.um-message-send, .um-message-send.disabled:hover { background-color: #3ba1da }
+.um-message-send:hover { background-color: rgba(59, 161, 218, 0.9) }
+
+.um-message-item.left_m .um-message-item-content { background-color: rgba(59, 161, 218, 0.8);}
+
+.um-message-footer {
+	background: rgba(59, 161, 218, 0.03);
+	border-top: 1px solid rgba(59, 161, 218, 0.2);
+}
+
+.um-message-textarea textarea, div.um div.um-form .um-message-textarea textarea {border: 2px solid rgba(59, 161, 218, 0.3) !important}
+.um-message-textarea textarea:focus,  div.um div.um-form .um-message-textarea textarea:focus {border: 2px solid rgba(59, 161, 218, 0.6) !important}
+
+.um-message-emolist {
+	border: 1px solid rgba(59, 161, 218, 0.25);
+}
+
+.um-message-conv-item.active {
+	color: #3ba1da;
+}
+
+.um-message-conv-view {
+	border-left: 1px solid rgba(59, 161, 218, 0.2);
+}

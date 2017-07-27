@@ -1,0 +1,135 @@
+/* Infinite Scroll Admin Style */
+.clear { clear:both; }
+h1.title {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 10px !important;
+}
+h1.title img {
+    border-radius: 3px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.menu_title {
+	background-color: #fff;
+    font-size: 1.7em;
+    height: 1.7em;
+    line-height: 100%;
+    margin: 10px 0;
+    outline: 0 none;
+    padding: 3px 8px;
+    width: 100%;
+}
+.postbox div.handlediv {
+    border-left: 1px solid #e5e5e5;
+    height: 100%;
+    padding-left: 9px;
+}
+.postbox h2.hndle {
+	cursor:default !important;
+}
+.postbox h2.hndle span {
+	display:block;
+	cursor:pointer;
+}
+#sb-postbox-container-right {
+	float:right;
+}
+.button-primary.sb-btn {
+    background: none repeat scroll 0 0 #152638;
+    box-shadow: none;
+}
+.postbox .inside {
+	padding-left:0;
+	padding-right:0;
+}
+.sb-row {
+    clear: both;
+    float: left;
+    margin: 5px 0;
+    width: 100%;
+	padding:0 12px;
+	box-sizing:border-box;
+	border-bottom:1px solid #eee;
+}
+.sb-row label {
+	width:150px;
+	float:left;
+	margin:4px -100% 0 0;
+}
+.sb-row-fluid label {
+	margin-right:0;
+	width:100%;
+}
+.sb-row-fluid .field-wrapper {
+	padding-left:0;
+}
+.sb-row label.checkbox {
+	margin-top:0;
+}
+.field-wrapper {
+	width:100%;
+	float:left;
+	padding-left:150px;
+	box-sizing:border-box;
+	position:relative;
+}
+.field-wrapper .media-uploader {
+	position:absolute;
+	top:1px;
+	right:-2px;
+}
+.upload-field-wrapper input[type=text] {
+	padding-right:70px;
+}
+.media-image-preview {
+	max-width:100px;
+	margin-top:10px;
+}
+p.description {
+	clear:both;
+	width:100%;
+	float:left;
+	color:#999;
+}
+input[type="text"], select {
+	width:100%;
+}
+textarea {
+	width:100%;
+	resize:vertical;
+}
+.sb-message {
+	background:#152638;
+	color:#fff;
+	padding:10px;
+	position:fixed;
+	right:0;
+	top:40px;
+	z-index:9999999;
+	display:none;
+	box-shadow:0 0 10px -2px rgba(0, 0, 0, 0.5);
+}
+.ajax-loader {
+	vertical-align:top;
+	margin-left:10px;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
